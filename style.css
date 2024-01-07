@@ -1,0 +1,241 @@
+/* cord de la page */
+body{
+    padding:0px;
+    margin:0px;
+    background:url("showcase.jpg")fixed;
+    background-size:cover;
+}
+
+/* première titre */
+h1{
+    font-family:tahoma;
+    color:white;
+    margin-left:10px;
+}
+.game{
+    color: #e51c00;
+    font-size:50.5px;
+    font-weight:700;
+    text-transform:uppercase;
+}
+.by{
+    font-size:10px;
+    color:white;
+}
+.coding{
+    color:yellow;
+}
+.pad{
+    color:#d44f23;
+}
+
+/* deuxième titre de la page: H2 */
+h2{
+    position:relative;
+    bottom:30px;
+    left:40px;
+}
+
+/* header tete de la page */
+header{
+    box-sizing: border-box;
+    background:#283c5f;
+    font-family:georgia;
+    margin-top:-22px;
+    background: url("8009688.jpg") no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+/* duexième navigateur se connecter et inscrire insclus de header */
+.content-block p a{
+    float:right;
+    position:relative;
+    bottom:140px;
+    right:20px;
+}
+.content-block a{
+    display:inline-block;
+    padding:10px;
+    text-decoration:none;
+    background:#757b8c;
+    margin:10px;
+    border-radius:2px;
+    font-weight:bold;
+    color:white;
+}
+input[type="submit"]:hover{
+    background:#757b8c;
+}
+input[type="submit"]{
+    background:yellow;
+    color:black;
+    font-weight:bold;
+}
+
+/*  notre barre de recherche inclus dans le header*/
+.content-flex{
+    text-align:center;
+    position: relative;
+    bottom:80px;
+}
+header input{
+    padding:10px;
+    background:#d0e3e3f5;
+    color:white;
+    border:none;
+}
+
+/* première navbar inclus dans header ex: Home & About */
+nav ul{
+    padding:0px;
+    margin:0px;
+}
+nav ul li{
+    float:left;
+    position:relative;
+    left:280px;
+    bottom:90px;
+}
+nav li{
+    list-style-type:none;
+    font-size:18px;
+}
+nav a{
+    display:inline-block;
+    padding:7px;
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    border-bottom:1px groove #757b8c;
+    margin:5px;
+}
+a:hover{
+    background:yellow;
+    color:black;
+}
+/* fin de header : en tete de page*/
+
+
+
+/* début du coprs de la page */
+main{
+    paddind:0px;
+    margin:0px;
+    box-sizing:cover;
+    display:flex;
+    justify-content:center;
+}
+form{
+    background:transparent;
+    backdrop-filter:blur(10px);
+   border:2px solid rgba(255, 255, 255, .2);
+    border-radius:5px;
+    padding:8px;
+    margin:5px;
+}
+form h3{
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    text-transform:uppercase;
+    font-famil:tahoma;
+    background:#e51c00;
+    border-radius:4px;
+    color:white;
+}
+form label{
+    font-family:arial;
+    font-weight:bold;
+    padding:5px;
+    text-transform:uppercase;
+}
+form input{
+    padding:3px;
+    margin:5px;
+    border:none;
+    border-radius:2px;
+}
+button{
+    padding:7px;
+    margin:3px;
+    width:80%;
+    text-align:center;
+    background:yellow;
+    border:none;
+    boeder-radius:3px;
+    color:black;
+    font-weight:700;
+}
+article{
+    background:transparent;
+    backdrop-filter:blur(10px);
+    border:2px solid rgba(255, 255, 255, .2);
+    border-radius:5px;
+    padding:8px;
+    margin:5px;
+}
+#phinee > h3{
+    font-size:25px;
+    color:white;
+    text-decoration:underline;
+}
+#phinee{
+    text-align:center;
+    border:1px outside rgba(255, 255, 255, .3);
+}
+
+@font-face{
+  font-family:MI;
+  font-style:normal;
+  font-weight:400;
+  src:url(Material-Icons.woff2) format('woff2')
+}
+
+.material-icons{
+  font-family:MI;
+  font-weight:400;
+  font-style:normal;
+  font-size:24px;
+  line-height:1;
+  letter-spacing:normal;
+  text-transform:none;
+  display:inline-block;
+  white-space:nowrap;
+  word-wrap:normal;
+  direction:ltr;
+  -webkit-font-feature-settings:'liga';
+  -webkit-font-smoothing:antialiased
+}
+
+/* trainning of page */
+aside{
+    color:white;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    position:relative;
+    top:100px;
+}
+aside h3{  
+    font-size:60px;
+    position:relative;
+    left:140px;
+    font-weight:bold;
+    font-family:arial black;
+}
+aside p{
+    position:relative;
+    bottom:50px;
+    font-family:helvetica;
+}
+aside button{
+    position:relative;
+    bottom:50px;
+    font-weight:bold;
+    width:10%;
+    font-family:arial;
+    text-transform:uppercase;
+}
+/* fin du cours de la page */
+0894848538
